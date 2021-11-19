@@ -1,0 +1,11 @@
+function split(arr) 
+{
+    while(arr.length > 0) 
+    {
+        let output;
+        output = arr.splice(0,1);
+        console.log(output);
+    }
+}
+const array = [{ name: 'stephen', age: 41 }, { name: 'newton', age: 46 }]; 
+split(array);
